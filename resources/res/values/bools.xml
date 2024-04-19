@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_antenna_blocked_alert">false</bool>
+    <bool name="enable_auto_play">true</bool>
+    <bool name="enable_nfc_provisioning">true</bool>
+    <bool name="enable_nfc_url_open_dialog">false</bool>
+    <bool name="enable_notify_dispatch_failed">false</bool>
+</resources>

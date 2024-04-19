@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start" android:orientation="vertical" android:paddingTop="24dp" android:layout_width="wrap_content" android:layout_height="400dp" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <TextView android:textColor="?android:attr/textColorPrimaryInverse" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/summary_confirm_url_open" android:textAlignment="viewStart"/>
+    <TextView android:textColor="?android:attr/colorAccent" android:id="@+id/url_open_confirmation_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart"/>
+    <FrameLayout android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_weblink_nfc"/>
+    </FrameLayout>
+</LinearLayout>
